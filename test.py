@@ -7,7 +7,7 @@ import os
 
 # ------------------ CONSTANTS ------------------
 MODEL_PATH = "best_mri_classifier.h5"
-DATA_DIR = "data/data"  # directory with subfolders = class names
+DATA_DIR = "data"  # directory with subfolders = class names
 
 # ------------------ LOAD MODEL ------------------
 @st.cache_resource
